@@ -10,7 +10,9 @@ namespace Navigation
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new WelcomePage());
+            MainPage = new NavigationPage(new WelcomePage()) {
+            BarBackgroundColor = Color.Aqua,
+            BarTextColor=Color.Orange};
         }
 
         protected override void OnStart()
