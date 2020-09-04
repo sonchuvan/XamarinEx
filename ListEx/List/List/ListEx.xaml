@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="List.ListEx">
+    <StackLayout Padding="10">
+        
+        <SearchBar Placeholder="Search... " TextChanged="SearchBar_TextChanged">
+            
+        </SearchBar>
+
+        <Label Text="Recent Searches"/>
+
+        <ListView x:Name="listview" IsPullToRefreshEnabled="True" Refreshing="listview_Refreshing" ChildRemoved="listview_ChildRemoved">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Location}" x:Name="textcell">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Delete" Clicked="Delete_Clicked" IsDestructive="True" CommandParameter="{Binding .}"/>
+                        </TextCell.ContextActions>
+                        <TextCell.Detail>
+                            <MultiBinding StringFormat="{}{0:yyyy,MM,dd}-{1:yyyy,MM,dd}">
+                                <Binding Path="Checkin"/>
+                                <Binding Path="Checkout"/>
+                            </MultiBinding>
+                        </TextCell.Detail>
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </StackLayout>
+</ContentPage>

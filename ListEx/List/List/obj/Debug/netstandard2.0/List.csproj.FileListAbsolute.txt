@@ -1,0 +1,15 @@
+E:\soncv\ListEx\List\List\bin\Debug\netstandard2.0\List.deps.json
+E:\soncv\ListEx\List\List\bin\Debug\netstandard2.0\List.dll
+E:\soncv\ListEx\List\List\bin\Debug\netstandard2.0\ref\List.dll
+E:\soncv\ListEx\List\List\bin\Debug\netstandard2.0\List.pdb
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\List.csprojAssemblyReference.cache
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\ListEx.xaml.g.cs
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\List.AssemblyInfoInputs.cache
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\List.AssemblyInfo.cs
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\List.csproj.CoreCompileInputs.cache
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\XamlC.stamp
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\List.dll
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\ref\List.dll
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\List.pdb

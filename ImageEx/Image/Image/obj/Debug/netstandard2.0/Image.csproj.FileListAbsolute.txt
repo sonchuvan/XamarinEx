@@ -1,0 +1,15 @@
+E:\soncv\ImageEx\Image\Image\bin\Debug\netstandard2.0\Image.deps.json
+E:\soncv\ImageEx\Image\Image\bin\Debug\netstandard2.0\Image.dll
+E:\soncv\ImageEx\Image\Image\bin\Debug\netstandard2.0\ref\Image.dll
+E:\soncv\ImageEx\Image\Image\bin\Debug\netstandard2.0\Image.pdb
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\Image.csprojAssemblyReference.cache
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\ImageEx.xaml.g.cs
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\Image.AssemblyInfoInputs.cache
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\Image.AssemblyInfo.cs
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\Image.csproj.CoreCompileInputs.cache
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\XamlC.stamp
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\Image.dll
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\ref\Image.dll
+E:\soncv\ImageEx\Image\Image\obj\Debug\netstandard2.0\Image.pdb
