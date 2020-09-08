@@ -59,5 +59,15 @@ namespace List
         {
             
         }
+
+        private async void listview_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem == null)
+                return;
+            var search = e.SelectedItem as Search;
+            await Navigation.PushAsync(new DetailSearch(search));
+            listview.SelectedItem = null;
+
+        }
     }
 }

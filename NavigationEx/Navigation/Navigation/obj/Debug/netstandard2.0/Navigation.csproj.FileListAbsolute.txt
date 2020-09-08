@@ -14,3 +14,4 @@ E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\XamlC.stamp
 E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\Navigation.dll
 E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\ref\Navigation.dll
 E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\Navigation.pdb
+E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\PopupPage.xaml.g.cs

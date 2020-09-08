@@ -10,7 +10,7 @@ namespace List
         {
             InitializeComponent();
 
-            MainPage = new ListEx();
+            MainPage = new NavigationPage(new ListEx());
         }
 
         protected override void OnStart()

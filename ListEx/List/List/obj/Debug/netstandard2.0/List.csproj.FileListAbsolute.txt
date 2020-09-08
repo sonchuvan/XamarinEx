@@ -13,3 +13,4 @@ E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\XamlC.stamp
 E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\List.dll
 E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\ref\List.dll
 E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\List.pdb
+E:\soncv\ListEx\List\List\obj\Debug\netstandard2.0\DetailSearch.xaml.g.cs

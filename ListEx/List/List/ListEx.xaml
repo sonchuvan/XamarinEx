@@ -10,7 +10,11 @@
 
         <Label Text="Recent Searches"/>
 
-        <ListView x:Name="listview" IsPullToRefreshEnabled="True" Refreshing="listview_Refreshing" ChildRemoved="listview_ChildRemoved">
+        <ListView x:Name="listview"
+                  IsPullToRefreshEnabled="True"
+                  Refreshing="listview_Refreshing"
+                  ChildRemoved="listview_ChildRemoved"
+                  ItemSelected="listview_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Location}" x:Name="textcell">

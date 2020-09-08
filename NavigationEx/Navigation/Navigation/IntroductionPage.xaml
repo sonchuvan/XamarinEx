@@ -6,5 +6,6 @@
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
         <Label Text="This is how the app Works" HorizontalOptions="Center"/>
         <Button Text="Back" Clicked="Button_Clicked" BackgroundColor="Transparent" TextColor="Blue"/>
-        </StackLayout>
+        <Button Text="Popup Here" Clicked="Button_Clicked_1" BackgroundColor="Transparent" TextColor="Blue" />
+    </StackLayout>
 </ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="{Binding Location}" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="List.DetailSearch"
+             Padding="20">
+    <StackLayout>
+        <Label Text="{Binding Location, StringFormat='Location: {0}'}"/>
+        <Label Text="{Binding Checkin, StringFormat='CheckIn: {0:dd/MM/yyyy}'}"/>
+        <Label Text="{Binding Checkout, StringFormat='CheckOut: {0:dd/MM/yyyy}'}"/>
+        
+    </StackLayout>
+
+</ContentPage>
