@@ -15,3 +15,4 @@ E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\Navigation.
 E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\ref\Navigation.dll
 E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\Navigation.pdb
 E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\PopupPage.xaml.g.cs
+E:\soncv\NavigationEx\Navigation\Navigation\obj\Debug\netstandard2.0\ToolbarItem.xaml.g.cs

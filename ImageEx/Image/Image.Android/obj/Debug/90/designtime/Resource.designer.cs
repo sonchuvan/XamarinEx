@@ -8025,34 +8025,34 @@ namespace Image.Droid
 		{
 			
 			// aapt resource value: 0x7F070000
-			public const int 10 = 2131165184;
+			public const int a1 = 2131165184;
 			
 			// aapt resource value: 0x7F070001
-			public const int 2 = 2131165185;
+			public const int a10 = 2131165185;
 			
 			// aapt resource value: 0x7F070002
-			public const int 3 = 2131165186;
+			public const int a2 = 2131165186;
 			
 			// aapt resource value: 0x7F070003
-			public const int 4 = 2131165187;
+			public const int a3 = 2131165187;
 			
 			// aapt resource value: 0x7F070004
-			public const int 5 = 2131165188;
+			public const int a4 = 2131165188;
 			
 			// aapt resource value: 0x7F070005
-			public const int 6 = 2131165189;
+			public const int a5 = 2131165189;
 			
 			// aapt resource value: 0x7F070006
-			public const int 7 = 2131165190;
+			public const int a6 = 2131165190;
 			
 			// aapt resource value: 0x7F070007
-			public const int 8 = 2131165191;
+			public const int a7 = 2131165191;
 			
 			// aapt resource value: 0x7F070008
-			public const int 9 = 2131165192;
+			public const int a8 = 2131165192;
 			
 			// aapt resource value: 0x7F070009
-			public const int a1 = 2131165193;
+			public const int a9 = 2131165193;
 			
 			// aapt resource value: 0x7F07000A
 			public const int abc_ab_share_pack_mtrl_alpha = 2131165194;
@@ -8388,13 +8388,16 @@ namespace Image.Droid
 			public const int notify_panel_notification_icon_bg = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int right1 = 2131165305;
+			public const int plus = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int tooltip_frame_dark = 2131165306;
+			public const int right1 = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int tooltip_frame_light = 2131165307;
+			public const int tooltip_frame_dark = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int tooltip_frame_light = 2131165308;
 			
 			static Drawable()
 			{

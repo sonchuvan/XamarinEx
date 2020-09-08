@@ -16,5 +16,10 @@ namespace Navigation
         {
             InitializeComponent();
         }
+
+        private void ToolbarItem_Activated(object sender, EventArgs e)
+        {
+            DisplayAlert("Activated", "ToolBarItem Activated", "OK");
+        }
     }
 }

@@ -26,5 +26,10 @@ namespace Navigation
         {
             await Navigation.PushAsync(new PopupPage());
         }
+
+        private async void Button_Clicked_2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ToolbarItem());
+        }
     }
 }

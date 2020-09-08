@@ -7,5 +7,6 @@
         <Label Text="This is how the app Works" HorizontalOptions="Center"/>
         <Button Text="Back" Clicked="Button_Clicked" BackgroundColor="Transparent" TextColor="Blue"/>
         <Button Text="Popup Here" Clicked="Button_Clicked_1" BackgroundColor="Transparent" TextColor="Blue" />
+        <Button Text="ToolBar Here" Clicked="Button_Clicked_2" BackgroundColor="Transparent" TextColor="Blue"/>
     </StackLayout>
 </ContentPage>
