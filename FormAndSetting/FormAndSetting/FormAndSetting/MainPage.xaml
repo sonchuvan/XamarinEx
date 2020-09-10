@@ -5,12 +5,21 @@
              x:Class="FormAndSetting.MainPage">
 
     <StackLayout Padding="20">
-        <TableView>
+        <TableView Intent="Form">
             <TableRoot>
-                <TableSection>
+                <TableSection Title="Basic">
                     <EntryCell Label="Phone" Keyboard="Numeric" Placeholder="Phone" />
                     <EntryCell Label="Email" Keyboard="Email" Placeholder="Email" />
-                    <TextCell Text="OK"/>
+                    <TextCell  Text="OK"/>
+                    <SwitchCell Text="Notifications" On="True" />
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Start"/>
+                            <DatePicker Format="dd/MM/yyyy"
+                                        Date="{x:Static sys:DateTime.Today}"
+                                        HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </ViewCell>
                 </TableSection>
             </TableRoot>
         </TableView>
