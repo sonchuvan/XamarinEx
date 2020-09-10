@@ -1,16 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns:local="clr-namespace:NavigationEx"
-            xmlns="http://xamarin.com/schemas/2014/forms"
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            x:Class="NavigationEx.MainPage">
-    <NavigationPage Title="Activities" IconImageSource="heart32.png" >
-        <x:Arguments>
-            <local:ActivitiesPage />
-        </x:Arguments>
-    </NavigationPage>
-    <NavigationPage Title="Profile" IconImageSource="customer32.png">
-        <x:Arguments>
-            <local:ProfilePage />
-        </x:Arguments>
-    </NavigationPage>
+<TabbedPage
+    NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="NavigationEx.MainPage">
+    <ContentPage Title="Activities" IconImageSource="heart32.png" Padding="0,10,0,0">
+        <ListView  x:Name="listview" RowHeight="70" HasUnevenRows="True" ItemSelected="listview_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="5" HorizontalOptions="StartAndExpand">
+                            <Frame CornerRadius="28"
+                                   HeightRequest="55"
+                                   WidthRequest="55"
+                                   HorizontalOptions="Center"
+                                   Padding="0"
+                                   IsClippedToBounds="True">
+                                <Image Source="{Binding ImgUrl}"
+                                       WidthRequest="60"
+                                       HeightRequest="60"
+                                       Aspect="AspectFill"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"/>
+                            </Frame>
+                            <Label Text="{Binding Activities}"
+                                   TextColor="Black"
+                                   VerticalOptions="Center"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage >
+    <ContentPage Title="Profile" IconImageSource="customer32.png"
+                 Padding="20">
+        <Label Text="This is my Profile"/>
+    </ContentPage>
 </TabbedPage>

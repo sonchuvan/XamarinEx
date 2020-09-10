@@ -12,8 +12,13 @@ namespace NavigationEx
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfilePage : ContentPage
     {
-        public ProfilePage()
+        public ProfilePage(FriendList friend)
         {
+            if (friend == null)
+            {
+                throw new ArgumentNullException();
+            }
+            BindingContext = friend;
             InitializeComponent();
         }
     }

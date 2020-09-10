@@ -2,6 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NavigationEx.ProfilePage"
-             Title="Profile" IconImageSource="customer32.png">
-    <Label Text="This is my Profile"/>
+             Title="{Binding Name}"
+             >
+    <StackLayout HorizontalOptions="StartAndExpand"  Padding="20">
+        <Label Text="{Binding Name}" TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+        <Frame CornerRadius="50"
+               HeightRequest="100"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               Padding="0"
+               IsClippedToBounds="True">
+            <Image Source="{Binding ImgUrl}"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   Aspect="AspectFill"/>
+        </Frame>
+        <Label Text="{Binding FriendProfile}"/>
+    </StackLayout>
 </ContentPage>
