@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:sys="clr-namespace:System;assembly=System;assembly=mscorlib"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormAndSetting.MainPage">
+
+    <StackLayout Padding="20">
+        <TableView>
+            <TableRoot>
+                <TableSection>
+                    <EntryCell Label="Phone" Keyboard="Numeric" Placeholder="Phone" />
+                    <EntryCell Label="Email" Keyboard="Email" Placeholder="Email" />
+                    <TextCell Text="OK"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <Entry IsPassword="True" Placeholder="Password" TextChanged="Entry_TextChanged" Completed="Entry_Completed"/>
+        <Label x:Name="label"/>
+        <Editor HorizontalOptions="FillAndExpand" />
+        <Switch x:Name="switch"
+                ThumbColor="Blue"
+                IsToggled="True"
+                HorizontalOptions="Start"/>
+        <Label Text="Content"
+               IsVisible="{Binding Source={x:Reference switch},Path=IsToggled }"/>
+        <Slider x:Name="slider"
+                ThumbColor="Blue"
+                MaximumTrackColor="Blue"
+                MinimumTrackColor="Blue"
+                Maximum="100" 
+                Minimum="0"
+                Value="45"/>
+        <Label Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='{0:N0}'}"/>
+        <Stepper x:Name="stepper"
+                 Increment="5"
+                 Minimum="-50"
+                 Maximum="50"/>
+        <Label Text="{Binding Source={x:Reference stepper}, Path=Value}"/>
+        <Picker x:Name="picker"
+                Title="Address"
+                SelectedIndexChanged="Picker_SelectedIndexChanged">
+            <Picker.Items>
+                <x:String>Ha Noi</x:String>
+                <x:String>Hai Phong</x:String>
+                <x:String>Ho Chi Minh</x:String>
+            </Picker.Items>
+        </Picker>
+        <DatePicker Format="dd/MM/yyyy"
+                    Date="{x:Static sys:DateTime.Today}"
+                    MinimumDate="1 1 2010"
+                    MaximumDate="12 31 2030"
+                    DateSelected="DatePicker_DateSelected"/>
+        <TimePicker x:Name="timepicker"/>
+    </StackLayout>
+</ContentPage>

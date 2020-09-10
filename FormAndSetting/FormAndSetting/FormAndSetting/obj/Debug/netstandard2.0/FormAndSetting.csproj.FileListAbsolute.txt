@@ -1,0 +1,14 @@
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\bin\Debug\netstandard2.0\FormAndSetting.deps.json
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\bin\Debug\netstandard2.0\FormAndSetting.dll
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\bin\Debug\netstandard2.0\ref\FormAndSetting.dll
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\bin\Debug\netstandard2.0\FormAndSetting.pdb
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\FormAndSetting.csprojAssemblyReference.cache
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\FormAndSetting.AssemblyInfoInputs.cache
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\FormAndSetting.AssemblyInfo.cs
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\FormAndSetting.csproj.CoreCompileInputs.cache
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\XamlC.stamp
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\FormAndSetting.dll
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\ref\FormAndSetting.dll
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\FormAndSetting.pdb
