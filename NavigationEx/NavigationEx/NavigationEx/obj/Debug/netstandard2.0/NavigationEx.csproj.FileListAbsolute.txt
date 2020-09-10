@@ -1,0 +1,16 @@
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\NavigationEx.csprojAssemblyReference.cache
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\ActivitiesPage.xaml.g.cs
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\NavigationEx.AssemblyInfoInputs.cache
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\NavigationEx.AssemblyInfo.cs
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\NavigationEx.csproj.CoreCompileInputs.cache
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\bin\Debug\netstandard2.0\NavigationEx.deps.json
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\bin\Debug\netstandard2.0\NavigationEx.dll
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\bin\Debug\netstandard2.0\ref\NavigationEx.dll
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\bin\Debug\netstandard2.0\NavigationEx.pdb
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\XamlC.stamp
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\NavigationEx.dll
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\ref\NavigationEx.dll
+E:\soncv\NavigationEx\NavigationEx\NavigationEx\obj\Debug\netstandard2.0\NavigationEx.pdb
