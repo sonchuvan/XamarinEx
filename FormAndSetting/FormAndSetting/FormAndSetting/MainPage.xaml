@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:local="clr-namespace:FormAndSetting"
              xmlns:sys="clr-namespace:System;assembly=System;assembly=mscorlib"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local1="clr-namespace:FormAndSetting.Extensions"
              x:Class="FormAndSetting.MainPage">
 
     <StackLayout Padding="20">
@@ -9,23 +10,36 @@
             <TableRoot>
                 <TableSection Title="Basic">
                     <EntryCell Label="Phone" Keyboard="Numeric" Placeholder="Phone" />
+                    
                     <EntryCell Label="Email" Keyboard="Email" Placeholder="Email" />
-                    <TextCell  Text="OK"/>
+                    
                     <SwitchCell Text="Notifications" On="True" />
-                    <ViewCell>
+                    
+                    <local1:DateCell Label="Start" />
+                    
+                    <local1:DateCell Label="End"/>
+                    
+                    <ViewCell Tapped="ViewCell_Tapped">
+                        
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="Start"/>
-                            <DatePicker Format="dd/MM/yyyy"
-                                        Date="{x:Static sys:DateTime.Today}"
-                                        HorizontalOptions="EndAndExpand"/>
+                            
+                            <Label Text="Address" VerticalOptions="Center"/>
+                            
+                            <Label x:Name="ListAddress"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="EndAndExpand"
+                                   Text="None"/>
+                            
                         </StackLayout>
+                        
                     </ViewCell>
+                    
                 </TableSection>
+                
             </TableRoot>
+            
         </TableView>
-        <Entry IsPassword="True" Placeholder="Password" TextChanged="Entry_TextChanged" Completed="Entry_Completed"/>
-        <Label x:Name="label"/>
-        <Editor HorizontalOptions="FillAndExpand" />
+        
         <Switch x:Name="switch"
                 ThumbColor="Blue"
                 IsToggled="True"

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+          xmlns:sys="clr-namespace:System;assembly=System;assembly=mscorlib"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="FormAndSetting.Extensions.DateCell">
+    <StackLayout Orientation="Horizontal" Padding="15,0,0,0">
+        <Label Text="{Binding Label}" VerticalOptions="Center"/>
+        <DatePicker Format="dd/MM/yyyy"
+                    Date="{x:Static sys:DateTime.Today}"
+                    HorizontalOptions="EndAndExpand"/>  
+    </StackLayout>
+</ViewCell>

@@ -12,3 +12,5 @@ E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\X
 E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\FormAndSetting.dll
 E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\ref\FormAndSetting.dll
 E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\FormAndSetting.pdb
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\Extensions\DateCell.xaml.g.cs
+E:\soncv\FormAndSetting\FormAndSetting\FormAndSetting\obj\Debug\netstandard2.0\AddressList.xaml.g.cs

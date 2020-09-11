@@ -16,16 +16,6 @@ namespace FormAndSetting
             timepicker.Time = DateTime.Now.TimeOfDay;
         }
 
-        private void Entry_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            label.Text = e.NewTextValue;
-        }
-
-        private void Entry_Completed(object sender, EventArgs e)
-        {
-            label.Text = "completed";
-        }
-
         private void Picker_SelectedIndexChanged(object sender, EventArgs e)
         {
             var address = picker.Items[picker.SelectedIndex];
@@ -35,6 +25,17 @@ namespace FormAndSetting
         private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
         {
 
+        }
+
+        private void ViewCell_Tapped(object sender, EventArgs e)
+        {
+            var Page = new AddressList();
+            Page.address.ItemSelected += (source, args) =>
+             {
+                 ListAddress.Text = args.SelectedItem.ToString();
+                 Navigation.PopAsync();
+             };
+            Navigation.PushAsync(Page);
         }
     }
 }
