@@ -1,0 +1,10 @@
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\build.props
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\adb.props
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\FormAndSettingEx.Android.csprojAssemblyReference.cache
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\res.flag
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\R.txt
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\R.cs.flag
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx.Android\obj\Debug\90\FormAndSettingEx.Android.csproj.CoreCompileInputs.cache

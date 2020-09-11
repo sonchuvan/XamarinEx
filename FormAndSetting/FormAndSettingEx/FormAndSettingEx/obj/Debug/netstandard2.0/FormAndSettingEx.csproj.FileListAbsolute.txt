@@ -1,0 +1,10 @@
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\FormAndSettingEx.csprojAssemblyReference.cache
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\ContactDetailPage.xaml.g.cs
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\FormAndSettingEx.AssemblyInfoInputs.cache
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\FormAndSettingEx.AssemblyInfo.cs
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\FormAndSettingEx.csproj.CoreCompileInputs.cache
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\FormAndSettingEx.dll
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\ref\FormAndSettingEx.dll
+E:\soncv\FormAndSetting\FormAndSettingEx\FormAndSettingEx\obj\Debug\netstandard2.0\FormAndSettingEx.pdb
