@@ -1,0 +1,14 @@
+E:\soncv\DataAccess\DataAccess\DataAccess\bin\Debug\netstandard1.6\DataAccess.deps.json
+E:\soncv\DataAccess\DataAccess\DataAccess\bin\Debug\netstandard1.6\DataAccess.dll
+E:\soncv\DataAccess\DataAccess\DataAccess\bin\Debug\netstandard1.6\ref\DataAccess.dll
+E:\soncv\DataAccess\DataAccess\DataAccess\bin\Debug\netstandard1.6\DataAccess.pdb
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\DataAccess.csprojAssemblyReference.cache
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\App.xaml.g.cs
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\MainPage.xaml.g.cs
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\DataAccess.AssemblyInfoInputs.cache
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\DataAccess.AssemblyInfo.cs
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\DataAccess.csproj.CoreCompileInputs.cache
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\XamlC.stamp
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\DataAccess.dll
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\ref\DataAccess.dll
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard1.6\DataAccess.pdb

@@ -14,26 +14,8 @@ namespace DataAccess
         {
             InitializeComponent();
 
-            if (Application.Current.Properties.ContainsKey("Name"))
-            {
-                title.Text = Application.Current.Properties["Name"].ToString();
-            }
-            if (Application.Current.Properties.ContainsKey("NotificationEnabled"))
-            {
-                notificationEnable.On = (bool) Application.Current.Properties["NotificationEnabled"];
-            }
+            BindingContext = Application.Current;
         }
 
-        private void OnChange(object sender, ToggledEventArgs e)
-        {
-            Application.Current.Properties["Name"] = title.Text;
-            Application.Current.Properties["NotificationEnabled"] = notificationEnable.On;
-
-            
-        }
-        protected override void OnDisappearing()
-        {
-            base.OnDisappearing();
-        }
     }
 }
