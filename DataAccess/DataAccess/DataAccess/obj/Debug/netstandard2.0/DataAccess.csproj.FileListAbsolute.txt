@@ -1,0 +1,9 @@
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\ref\DataAccess.dll
+E:\soncv\DataAccess\DataAccess\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

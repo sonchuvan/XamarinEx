@@ -1,0 +1,10 @@
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\build.props
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\adb.props
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\DataAccess.Android.csprojAssemblyReference.cache
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\res.flag
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\R.txt
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\R.cs.flag
+E:\soncv\DataAccess\DataAccess\DataAccess.Android\obj\Debug\90\DataAccess.Android.csproj.CoreCompileInputs.cache
