@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormAndSettingEx.MainPage"
+             Title="Contact"
+             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="" Text="Add" Activated="ToolbarItem_Activated" Order="Primary" />
+    </ContentPage.ToolbarItems>
+    <ListView x:Name="listview" ItemSelected="listview_ItemSelected" >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding FirstName}">
+                    <TextCell.ContextActions>
+                        <MenuItem Text="Delete" Clicked="MenuItem_Clicked"/>
+                    </TextCell.ContextActions>
+                </TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

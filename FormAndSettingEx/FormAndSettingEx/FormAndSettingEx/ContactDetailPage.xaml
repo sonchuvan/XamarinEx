@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormAndSettingEx.ContactDetailPage"
+             >
+    <StackLayout>
+        <TableView VerticalOptions="Center" >
+            <TableRoot>
+                <TableSection Title="NAME">
+                    <EntryCell Label="FirstName" LabelColor="Black" Text="{Binding FirstName}" x:Name="fistname"/>
+                    <EntryCell Label="LastName" LabelColor="Black" Text="{Binding LastName}" x:Name="lastname"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <TableView VerticalOptions="Center">
+            <TableSection Title="CONTACT">
+                <EntryCell Label="Phone" Keyboard="Numeric" LabelColor="Black" Text="{Binding Phone}" x:Name="phone" />
+                <EntryCell Label="Email" Keyboard="Email" LabelColor="Black" Text="{Binding Email}" x:Name="email" />
+            </TableSection>
+        </TableView>
+
+        <TableView VerticalOptions="Center">
+            <TableSection Title="Other">
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Padding="20,0">
+                        <Label Text="Blocked" VerticalOptions="Center"/>
+                        <Switch HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                </ViewCell>
+            </TableSection>
+        </TableView>
+        <Button Text="Save" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+    </StackLayout>
+    
+</ContentPage>
